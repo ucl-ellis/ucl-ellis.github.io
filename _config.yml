@@ -1,55 +1,123 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+full_rebuild: true
+name: Gridster
+description: the material experience for jekyll
+destination: jekyllbuild
+url: #place url
+baseurl: #place folder name if site is served in subfolder
+permalink: /:title/
+paginate: 8
+paginate_path: /page/:num/
+infinite_scroll: true #change to false if you want to use pagination
+gems: [jekyll-paginate]
+tag_dir: /tag
+category_dir: /category
+author_dir: /author
+author_title_prefix: 'Posted by '
+media_folder: /media/compressed
+author_default_avatar: /profile-pic.jpg
+tumblr: "#"
+pinterest: "#"
+instagram: "#"
+twitter: "#"
+facebook: "#"
+youtube: "#"
+vimeo: "#"
+soundcloud: "#"
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+encoding: utf-8
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post-material-sidebar-left"
+      type: "standard"
+      homedisplay: "featimg"
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+relative_permalinks: false
+exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, jekyllbuild]
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# prose.io configurations
+prose:
+  media: "img"
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Layout"
+          help: "display post at full width or with sidebar"
+          options:
+            - name: "with sidebar"
+              value: "post"
+            - name: "full width"
+              value: "post-full"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          help: "author id as defined within _data/authors.yml"
+          type: "text"
+      - name: "featimg"
+        field:
+          element: "text"
+          label: "Featured Image"
+          help: "featured image within the img-folder"
+          type: "text"
+      - name: "type"
+        field:
+          element: "select"
+          label: "Post Type"
+          help: "each type has some special feature"
+          options:
+            - name: "Standard"
+              value: "standard"
+            - name: "Image"
+              value: "image"
+            - name: "Gallery"
+              value: "gallery"
+            - name: "Audio"
+              value: "audio"
+            - name: "YouTube"
+              value: "youtube"
+            - name: "Vimeo"
+              value: "vimeo"
+      - name: "homedisplay"
+        field:
+          element: "select"
+          label: "Home Display"
+          help: "decide whether to display embedded element (for post types: audio, youtube, vimeo) or Featured Image on home page"
+          options:
+            - name: "Featured Image"
+              value: "featimg"
+            - name: "Embedded Element"
+              value: "iframe"
+      - name: "vimeo-embed"
+        field:
+          element: "text"
+          label: "Vimeo Embedding Code"
+          help: "Set post type to vimeo in order for this to work"
+      - name: "gallery-id"
+        field:
+          element: "text"
+          label: "Gallery ID"
+          help: "ID of the gallery defined within _data/galleries.yml - use include in content to use"
+      - name: "audio-embed"
+        field:
+          element: "text"
+          label: "Audio Embedding Code"
+          help: "Set post type to audio in order for this to work"
+      - name: "yt-video-id"
+        field:
+          element: "text"
+          label: "YouTube Video ID"
+          help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
+          type: "text"
