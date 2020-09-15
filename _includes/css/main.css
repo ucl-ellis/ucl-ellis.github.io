@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: {{ site.color.black }};
+    color: grey;
 }
 
 h1,
@@ -165,6 +165,9 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
+.navbar a:hover {
+    color: gray;
+}
 .navbar a:focus {
     outline: 0;
 }
@@ -486,7 +489,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: {{ site.color.black}};
+    background-color: grey;
     background: {{ site.color.black}};
 }
 
@@ -521,7 +524,7 @@ a.news-link {
 
 a.news-link:hover {
     transform: scale(1.2);
-    background-color:rgb(28, 28, 33);
+    background-color:white;
 }
 
 p.news-date {
