@@ -8,11 +8,11 @@ people = {
         'Ingemar Cox',
         'Marc Deisenroth',
         'Benjamin Guedj',
-        'Marc Herbster',
+        'Mark Herbster',
         'Dimitrios Kanoulas',
         'Matt Kusner',
         'Brooks Paige',
-        'Masimiliano Pontil',
+        'Massimiliano Pontil',
         'Sebastian Riedel',
         'John Shawe-Taylor',
         'Pontus Stenetorp',
@@ -31,7 +31,7 @@ people = {
         'Petros Dellaportas',
         'Jim Griffin',
         'Serge Guillas',
-        'Ioanna Manolopolou',
+        'Ioanna Manolopoulou',
         'Ricardo Silva',
         'Tengyao Wang',
         'Jinghao Xue'
@@ -64,4 +64,3 @@ for department, names in people.items():
 
         with open(f'2020-09-14-{file_name}.markdown', 'w') as f:
             f.write(file)
-        
