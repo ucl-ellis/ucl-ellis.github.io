@@ -79,12 +79,12 @@ hr.star-light-grey:after {
 }
 
 hr.star-primary {
-    border-color: #fff;
+    border-color: rgb(28, 28, 33);
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
+    color: white;
+    background-color: rgb(28, 28, 33);
 }
 
 .img-centered {
@@ -496,7 +496,7 @@ footer .footer-below {
 }
 
 #page-top {
-    background: white;
+    background: rgb(28, 28, 33);
 }
 
 .navbar-default {
@@ -525,8 +525,12 @@ a.news-link:hover {
 p.news-date {
     font-size: 0.7vw;
     opacity: 0.6;
+    color: #BFBFBF;
 }
 
-h6.people-title {
+p {
+    color: #BFBFBF;
+}
+h.people-title {
     opacity: 0.6;
 }
