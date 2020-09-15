@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2020-09-14
-img: safe.png
+img: cake.png
 alt: image-alt
 interests: TBA
-department: Statistics
-name: Ioanna Manolopolou
+department: Computer Science
+name: Mark Herbster
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
