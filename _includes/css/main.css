@@ -523,7 +523,7 @@ a.news-link:hover {
 }
 
 p.news-date {
-    font-size: 0.7vw;
+    font-size: small;
     opacity: 0.6;
     color: #BFBFBF;
 }
