@@ -1,10 +1,11 @@
 # Site settings
-title: UCL ELLIS 
+title: UCL ELLIS
 email: your-email@domain.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+about: "UCL, a global leader in AI and machine learning, has joined the ELLIS network with a new ELLIS Unit. ELLIS is a European AI network of excellence comprising Units within 30 research institutions. It focuses on fundamental science, technical innovation and societal impact. The ELLIS Unit at UCL spans across multiple departments (Gatsby Computational Neuroscience Unit, Department of Computer Science, Department of Statistics).
+"
 meta_author: LastName FirstName
 
 phd_positions_link: "https://ellis.eu/en/news/ellis-phd-program-call-for-applications"
@@ -31,7 +32,7 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
   black: black
-  white: white 
+  white: white
 
 # Footer settings
 footer:
@@ -43,9 +44,9 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: 
+    url:
   - title: github
-    url: 
+    url:
   - title: envelope
     url: mailto:jpetangoda@gmail.com
 
