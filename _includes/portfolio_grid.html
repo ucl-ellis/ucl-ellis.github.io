@@ -15,10 +15,10 @@
                         <a href="#portfolioModal-{{ post.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-expand fa-3x"></i>
                                 </div>
                             </div>
-                            <!-- <i aria-hidden="true" class="img-responsive fa fa-user" alt="{{ post.alt }}"></i> -->
+                            <!-- <img src=/img/people/{{ post.img }} class="img-responsive" alt="{{ post.alt }}"></img> -->
                             <h5 class="person-name"> {{ post.name }}</h5>
                         
 
@@ -26,6 +26,7 @@
                     </div>
                 {% endfor %}
             </div>
+
             <h4> Gatsby Computational Neuroscience Unit</h3>
             <div class="portfolio-flex-row">
                 {% for post in site.categories.people_gatsby %}
@@ -33,10 +34,10 @@
                         <a href="#portfolioModal-{{ post.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-expand fa-3x"></i>
                                 </div>
                             </div>
-                            <!-- <i aria-hidden="true" class="img-responsive fa fa-user" alt="{{ post.alt }}"></i> -->
+                            <!-- <img src=/img/people/{{ post.img }} class="img-responsive" alt="{{ post.alt }}"></img> -->
                             <h5 class="person-name"> {{ post.name }}</h5>
                         
 
@@ -44,6 +45,7 @@
                     </div>
                 {% endfor %}
             </div>
+
             <h4> Statistics</h3>
             <div class="portfolio-flex-row">
                 {% for post in site.categories.people_statistics%}
@@ -51,10 +53,10 @@
                         <a href="#portfolioModal-{{ post.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-expand fa-3x"></i>
                                 </div>
                             </div>
-                            <!-- <i aria-hidden="true" class="img-responsive fa fa-user" alt="{{ post.alt }}"></i> -->
+                            <!-- <img src=/img/people/{{ post.img }} class="img-responsive" alt="{{ post.alt }}"></img> -->
                             <h5 class="person-name"> {{ post.name }} </h5>
                         
 

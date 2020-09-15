@@ -34,10 +34,12 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: white
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-light-grey {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -509,4 +511,17 @@ i.fa-user {
     align-content: center;
     text-align: right; 
     font-size: 10em;
+}
+
+a.news-link {
+    transition: transform .5s;
+}
+
+a.news-link:hover {
+    transform: scale(1.2);
+    background-color: white;
+}
+
+p.news-date {
+    font-size: 0.7vw;
 }
