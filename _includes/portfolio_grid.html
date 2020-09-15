@@ -1,0 +1,68 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container portfolio-flex-grid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>People</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <h4> Computer Science</h3>
+            <div class="portfolio-flex-row">
+                {% for post in site.categories.people_computer_science %}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-expand fa-3x"></i>
+                                </div>
+                            </div>
+                            <!-- <img src=/img/people/{{ post.img }} class="img-responsive" alt="{{ post.alt }}"></img> -->
+                            <h5 class="person-name"> {{ post.name }}</h5>
+                        
+
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <h4> Gatsby Computational Neuroscience Unit</h3>
+            <div class="portfolio-flex-row">
+                {% for post in site.categories.people_gatsby %}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-expand fa-3x"></i>
+                                </div>
+                            </div>
+                            <!-- <img src=/img/people/{{ post.img }} class="img-responsive" alt="{{ post.alt }}"></img> -->
+                            <h5 class="person-name"> {{ post.name }}</h5>
+                        
+
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <h4> Statistics</h3>
+            <div class="portfolio-flex-row">
+                {% for post in site.categories.people_statistics%}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-expand fa-3x"></i>
+                                </div>
+                            </div>
+                            <!-- <img src=/img/people/{{ post.img }} class="img-responsive" alt="{{ post.alt }}"></img> -->
+                            <h5 class="person-name"> {{ post.name }} </h5>
+                        
+
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

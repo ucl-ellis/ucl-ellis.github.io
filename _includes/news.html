@@ -1,0 +1,22 @@
+ <!-- News Section -->
+ <section id="news", class="success">
+    <div class="container portfolio-flex-grid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>News</h2>
+                <hr class="star-light-grey">
+            </div>
+        </div>
+        <div class="portfolio-flex-row">
+            {% for post in site.categories.news %}
+                <div>
+                    <a href="{{ post.link }}", class="news-link">
+                        <h3 class="person-name"> {{ post.title }}</h3>
+                        <p class="news-date"> {{ page.date | date_to_long_string }} </p>
+                        <p> {{ post.summary }}</p>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
