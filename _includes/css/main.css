@@ -49,6 +49,11 @@ hr.star-light-grey {
     overflow: visible;
 }
 
+hr.star-primary, 
+hr.star-light-grey {
+    font-size: x-small;
+}
+
 hr.star-light:after,
 hr.star-primary:after,
 hr.star-light-grey:after {
@@ -226,14 +231,15 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: {{ site.color.secondary}};
+    text-align: center;
+    background-color: {{ site.color.secondary }};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 1.0;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -243,6 +249,7 @@ section.success {
     height: 20px;
     margin-top: -12px;
     text-align: center;
+    display: block;
     font-size: 20px;
     color: #fff;
 }
@@ -281,8 +288,8 @@ section.success {
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
+      flex: 1 0 23.5%;
+      max-width: 23.5%;
     }
   }
   /* A large grid might need four columns on widescreen layouts */
@@ -543,3 +550,28 @@ h.people-title {
 .person-extra-info{
     color: #BFBFBF;
 }
+
+.parallax-img1, .parallax-img2, .parallax-img3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    /*
+    fixed = parallax
+    scroll = normal
+    */
+    background-attachment: fixed;
+  }
+
+  .parallax-img2{
+    background-image: url('../img/ucl.jpg');
+    min-height: 400px;
+  }
+  
+  #over img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
