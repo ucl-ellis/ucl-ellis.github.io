@@ -11,14 +11,8 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            {% for department in site.departments %}
-                <h6 class="people-title"> {{ department }}</h6>
                 <div class="portfolio-flex-row">
                     {% for person in site.categories.people %}
-                        {% assign person_department = person.department | downcase %}
-                        {% assign department_lower = department | downcase %}
-                        
-                        {%- if department_lower == person_department -%}
                             <div class="portfolio-flex-item portfolio-item">
                                 <a href="#portfolioModal-{{ person.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -26,13 +20,11 @@
                                             <i class="fa fa-expand fa-3x"></i>
                                         </div>
                                     </div>
-                                    <!-- <img src=/img/people/{{ person.img }} class="img-responsive" alt="{{ person.alt }}"></img> -->
+                                    <img src=/img/people/{{ person.img }} class="img-responsive" alt="{{ person.alt }}"></img>
                                     <h5 class="person-name"> {{ person.name }}</h5>
                                 </a>
                             </div>
-                        {%- endif -%}
                     {% endfor %}
                 </div>
-            {% endfor %}
         </div>
     </section>
