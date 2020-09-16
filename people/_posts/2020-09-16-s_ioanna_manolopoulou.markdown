@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2020-09-14
-img: cabin.png
+img: ellis-logo.png
 alt: image-alt
 interests: TBA
 department: Statistics
-name: Tengyao Wang
-description: TBA
+name: Ioanna Manolopoulou
+description: TBA 
 ---

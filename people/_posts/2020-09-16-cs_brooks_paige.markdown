@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2020-09-14
-img: game.png
+img: ellis-logo.png
 alt: image-alt
 interests: TBA
 department: Computer Science
-name: Emine Yilmaz
-description: TBA
+name: Brooks Paige
+description: TBA 
 ---

@@ -35,24 +35,23 @@ people = {
         'Ricardo Silva',
         'Tengyao Wang',
         'Jinghao Xue'
+    ],
+    'EEE': [
+        'Laura Toni'
     ]
 }
 
 images = [
-    'cabin',
-    'cake',
-    'circus',
-    'game',
-    'safe',
-    'submarine',
+    'ellis-logo',
 ]
 
-base = "---\nlayout: default\nmodal-id: 1\ndate: 2020-09-14\nimg: {}.png\nalt: image-alt\ninterests: TBA\ndepartment: {}\nname: {}\ndescription: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.\n---\n"
+base = "---\nlayout: default\nmodal-id: 1\ndate: 2020-09-14\nimg: {}.png\nalt: image-alt\ninterests: TBA\ndepartment: {}\nname: {}\ndescription: TBA \n---\n"
 
 dpt_str = {
     'Computer Science': 'cs',
     'Gatsby Computational Neuroscience Unit': 'g',
-    'Statistics': 's'
+    'Statistics': 's',
+    'EEE': 'eee'
 }
 for department, names in people.items():
     for name in names:
@@ -62,5 +61,5 @@ for department, names in people.items():
 
         file = base.format(img, department, name)
 
-        with open(f'2020-09-14-{file_name}.markdown', 'w') as f:
+        with open(f'2020-09-16-{file_name}.markdown', 'w') as f:
             f.write(file)

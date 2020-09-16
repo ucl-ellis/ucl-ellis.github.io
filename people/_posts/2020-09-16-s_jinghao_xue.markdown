@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2020-09-14
-img: safe.png
+img: ellis-logo.png
 alt: image-alt
 interests: TBA
-department: Computer Science
-name: Ingemar Cox
-description: TBA
+department: Statistics
+name: Jinghao Xue
+description: TBA 
 ---

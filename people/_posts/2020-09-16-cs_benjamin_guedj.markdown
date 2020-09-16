@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2020-09-14
-img: cake.png
+img: ellis-logo.png
 alt: image-alt
 interests: TBA
 department: Computer Science
-name: Lourdes Agapito
-description: TBA
+name: Benjamin Guedj
+description: TBA 
 ---

@@ -70,10 +70,4 @@ defaults:
     values:
       permalink: ""
 
-#department settings
-departments: [
-  Computer Science,
-  Gatsby Computational Neuroscience Unit,
-  Statistics,
-  EEE,
-] 
+

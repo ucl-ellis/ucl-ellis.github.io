@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2020-09-14
-img: https://cdn.ucl.ac.uk/indigo/images/ucl-logo.svg
+img: ellis-logo.png
 alt: image-alt
 link: https://www.ucl.ac.uk/ai-centre/news/2020/sep/ucl-joins-ellis-network
 title: UCL joins ELLIS network
