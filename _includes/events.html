@@ -7,13 +7,13 @@
                 <hr class="star-primary">
             </div>
         </div>
-        <div class="portfolio-flex-row">
-            {% assign num_events = site.categories.events | size %}
-            {% if num_events == 0 %}
+        {% assign num_events = site.categories.events | size %}
+        {% if num_events == 0 %}
             <div class="col-lg-12 text-center">
                 <h3> Stay tuned </h3>
             </div>
-            {% else %}
+        {% else %}
+            <div class="portfolio-flex-row">
                 {% for event in site.categories.events %}
 
                     <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
@@ -33,8 +33,8 @@
                             </div>
                         </a>
                     </div>
-                {% endfor %}
-            {% endif %}
-        </div>
+                {% endfor %} 
+            </div>
+        {% endif %}
     </div>
 </section>
