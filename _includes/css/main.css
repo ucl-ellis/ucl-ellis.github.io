@@ -553,11 +553,12 @@ h.people-title {
 
 .parallax-img1, .parallax-img2, .parallax-img3{
     position: relative;
-    opacity: 0.70;
+    opacity: 0.60;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  
+    height: 100vh;
+    max-width: 100vw;
     /*
     fixed = parallax
     scroll = normal
@@ -568,6 +569,7 @@ h.people-title {
   .parallax-img2{
     background-image: url('../img/ucl.jpg');
     min-height: 400px;
+    min-width: 100%;
   }
   
   #over img {
