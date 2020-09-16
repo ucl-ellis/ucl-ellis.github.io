@@ -29,7 +29,7 @@ disqus_shortname: myshortname
 color:
   primary: 28282f #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
+  secondary:  rgb(28, 28, 33) #FD6E8A
   secondary-dark: 233140 #A2122F
   black: black
   white: white
@@ -69,3 +69,10 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+#department settings
+departments: [
+  Computer Science,
+  Gatsby Computational Neuroscience Unit,
+  Statistics,
+] 
