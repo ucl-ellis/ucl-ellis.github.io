@@ -572,6 +572,8 @@ h.people-title {
 
   .parallax-img2{
     background-image: url('../img/ucl-2.jpg');
+    min-height: 100vh;
+
   }
   
   #over img {
