@@ -1,0 +1,8 @@
+---
+layout: default
+date: 2020-09-21
+epigrammatist: Prof Maneesh Sahani
+position: Director, Gatsby Computational Neuroscience Unit
+quote: Some of the most effective learning algorithms are those that combine perspectives from many different models or parameters. This has always seemed a fitting metaphor for effective research. And now ELLIS will provide a new architecture to keep our real-life committee machine functioning --- reinforcing, deepening and enlarging the channels that connect us to colleagues throughout Europe At UCL we're excited to be a part of this movement to grow together. We look forward to sharing new collaborations, workshops, exchanges, joint studentships and more, and to the insight and breakthroughs that will undoubtedly follow.
+---
+

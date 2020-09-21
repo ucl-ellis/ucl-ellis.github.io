@@ -8,7 +8,16 @@
           <span class="name">{{ site.title }}</span>
           <hr class="star-light" />
           <span class="skills">{{ site.about }}</span>
-        </div>
+         </div>
+        
+          <div class="porforlio-flex-rox">
+            {% for post in site.categories.quotes %}
+                <div style="max-width: 100%; padding-top: 40px;" class="porforlio-flex-item porforlio-item">
+                      <p class="person-name"> "{{ post.quote }} "</p>
+                      <p class="news-date"> {{ post.epigrammatist }} <br> {{ post.position }} </p>
+                </div>
+            {% endfor %}
+              </div>      
       </div>
     </div>
   </div>
