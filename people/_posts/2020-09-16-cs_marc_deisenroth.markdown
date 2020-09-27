@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+website: https://deisenroth.cc/
 date: 2020-09-14
 img: ellis-logo.png
 alt: image-alt

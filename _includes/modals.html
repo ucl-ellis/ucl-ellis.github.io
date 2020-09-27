@@ -12,7 +12,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.name}}</h2>
+                                {% if post.website %}
+                                    <strong><a class="person-extra-info", href="{{ post.website }}"><h2>{{ post.name}}</h2></a>
+                                    </strong>
+                                {% else %}
+                               <h2>{{ post.name}}</h2> 
+                                {% endif %}
                             <hr class="star-primary">
                             <img src="img/people/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.description %}
@@ -28,6 +33,12 @@
                                 {% if post.interests %}
                                     <li class="person-extra-info">Expertise:
                                         <strong><h7 class="person-extra-info">{{ post.interests }}</h7>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.website%}
+                                    <li class="person-extra-info">
+                                        <strong><a class="person-extra-info", href="{{ post.website }}">Website</a>
                                         </strong>
                                     </li>
                                 {% endif %}
