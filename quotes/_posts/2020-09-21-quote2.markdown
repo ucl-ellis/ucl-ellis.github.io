@@ -3,6 +3,6 @@ layout: default
 date: 2020-09-21
 epigrammatist: Prof Geraint Rees
 position: UCL Pro-Vice-Provost (AI)
-quote: Advances in AI that benefit people and planet require global cooperation across disciplines and sectors. The ELLIS network is a vital part of that effort and UCL is proud to be a contributor
+quote: Advances in AI that benefit people and planet require global cooperation across disciplines and sectors. The ELLIS network is a vital part of that effort and UCL is proud to be a contributor.
 ---
 

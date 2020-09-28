@@ -1,3 +1,6 @@
+#plugins
+plugins:
+    - jekyll-seo-tag
 # Site settings
 title: UCL ELLIS
 email: your-email@domain.com

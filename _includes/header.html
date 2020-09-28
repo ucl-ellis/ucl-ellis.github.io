@@ -15,10 +15,10 @@
          </div>
         
           <div class="porforlio-flex-rox">
-            {% for post in site.categories.quotes %}
+            {% for quote in site.categories.quotes %}
                 <div style="max-width: 100%; padding-top: 40px;" class="porforlio-flex-item porforlio-item">
-                      <p class="person-name"> "{{ post.quote }} "</p>
-                      <p class="news-date"> {{ post.epigrammatist }} <br> {{ post.position }} </p>
+                      <p class="person-name"> &ldquo;{{ quote.quote }} &rdquo;</p>
+                      <p class="news-date"> {{ quote.epigrammatist }} <br> {{ quote.position }} </p>
                 </div>
             {% endfor %}
               </div>      

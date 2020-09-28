@@ -12,7 +12,8 @@
                 </div>
             </div>
                 <div class="portfolio-flex-row">
-                    {% for person in site.categories.people %}
+                    {% assign people = site.categories.people | reverse %}
+                    {% for person in people %}
                             <div class="portfolio-flex-item portfolio-item">
                                 <a href="#portfolioModal-{{ person.name | remove: ' ' }}" class="portfolio-link" data-toggle="modal">
                                     <div id="over" style="position:relative; width:100%; height:100%">
