@@ -67,29 +67,29 @@ hr.star-light-grey:after {
 }
 
 hr.star-light {
-    border-color: #000;
+    border-color: transparent; 
 }
 hr.star-light-grey {
-    border-color: #28282f;
+    border-color: transparent;
 
 }
 hr.star-light:after {
     color: #fff;
-    background-color: {{ site.color.black }};
+    background-color: transparent;
 }
 
 hr.star-light-grey:after {
     color: #fff;
-    background-color: #28282f;
+    background-color: transparent; 
 }
 
 hr.star-primary {
-    border-color: rgb(28, 28, 33);
+    border-color: transparent; 
 }
 
 hr.star-primary:after {
     color: white;
-    background-color: rgb(28, 28, 33);
+    background-color: transparent; 
 }
 
 .img-centered {
@@ -573,7 +573,6 @@ h.people-title {
   .parallax-img2{
     background-image: url('../img/ucl-2.jpg');
     min-height: 100vh;
-
   }
   
   #over img {
@@ -581,3 +580,8 @@ h.people-title {
     margin-right: auto;
     display: block;
   }
+
+.img-responsive {
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}

@@ -2,7 +2,7 @@
 layout: default
 website: http://dkanou.github.io/
 date: 2020-09-14
-img: ellis-logo.png
+img: dimitrios_kanoulas.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

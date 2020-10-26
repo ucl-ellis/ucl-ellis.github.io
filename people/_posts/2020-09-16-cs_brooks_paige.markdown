@@ -2,7 +2,7 @@
 layout: default
 website: https://tbrx.github.io/
 date: 2020-09-14
-img: ellis-logo.png
+img: brooks_paige.png
 alt: image-alt
 interests: TBA
 department: Computer Science

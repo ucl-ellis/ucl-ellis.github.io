@@ -2,7 +2,7 @@
 layout: default
 website: https://sites.google.com/site/emineyilmaz/
 date: 2020-09-14
-img: ellis-logo.png
+img: emine_yilmaz.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

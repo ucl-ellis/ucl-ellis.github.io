@@ -2,7 +2,7 @@
 layout: default
 website: http://www0.cs.ucl.ac.uk/staff/J.Shawe-Taylor/
 date: 2020-09-14
-img: ellis-logo.png
+img: john_shaw_taylor.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

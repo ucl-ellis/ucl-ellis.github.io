@@ -2,7 +2,7 @@
 layout: default
 website: https://deisenroth.cc/
 date: 2020-09-14
-img: ellis-logo.png
+img: marc_deisenroth.jpg 
 alt: image-alt
 interests: Gaussian processes, reinforcement learning, approximate inference, data-efficient machine learning
 department: Computer Science

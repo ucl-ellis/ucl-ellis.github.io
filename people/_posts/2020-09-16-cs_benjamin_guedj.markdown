@@ -2,7 +2,7 @@
 layout: default
 website: https://bguedj.github.io/
 date: 2020-09-14
-img: ellis-logo.png
+img: benjamin_guedj.png
 alt: image-alt
 interests: TBA
 department: Computer Science

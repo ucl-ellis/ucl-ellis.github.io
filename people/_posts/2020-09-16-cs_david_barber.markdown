@@ -2,7 +2,7 @@
 layout: default
 website: http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php
 date: 2020-09-14
-img: ellis-logo.png
+img: david_barber.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science
