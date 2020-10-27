@@ -579,10 +579,12 @@ h.people-title {
     margin-left: auto;
     margin-right: auto;
     display: block;
-  }
-
-.img-responsive {
     border-radius: 50%;
     height: auto;
     width: 10vw;
-}
+  }
+
+  #img-news img{
+      border-radius: 0%;
+  }
+

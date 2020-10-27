@@ -19,7 +19,10 @@
                                <h2>{{ post.name}}</h2> 
                                 {% endif %}
                             <hr class="star-primary">
-                            <img src="img/people/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <div id="img-people">
+                                <img id="img-people" src="img/people/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            </div>
+                            
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
