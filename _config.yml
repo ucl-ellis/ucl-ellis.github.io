@@ -4,12 +4,12 @@ plugins:
 # Site settings
 title: UCL ELLIS
 email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://ucl-ellis.github.io
 description: "Landing page for UCL Ellis."
 keywords: "your keywords, separated by commas"
 about: "UCL, a global leader in AI and machine learning, has joined the ELLIS network with a new ELLIS Unit. ELLIS is a European AI network of excellence comprising Units within 30 research institutions. It focuses on fundamental science, technical innovation and societal impact. The ELLIS Unit at UCL spans across multiple departments (Gatsby Computational Neuroscience Unit, Department of Computer Science, Department of Statistics).
 "
-meta_author: LastName FirstName
+meta_author: ELLIS UCL
 
 phd_positions_link: "https://ellis.eu/en/news/ellis-phd-program-call-for-applications"
 # Google webmaster tools
