@@ -584,6 +584,11 @@ h.people-title {
     width: 10vw;
   }
 
+  #img-people img {
+      border-radius: 50%;
+      height: auto;
+      width: 20vw;
+  }
   #img-news img{
       border-radius: 0%;
   }
