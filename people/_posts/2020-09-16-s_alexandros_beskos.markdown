@@ -2,7 +2,7 @@
 layout: default
 website: http://www.homepages.ucl.ac.uk/~ucakabe/
 date: 2020-09-14
-img: old_alexandros_beskos.jpg
+img: alexandros_beskos.jpg
 alt: image-alt
 interests: TBA
 department: Statistics
