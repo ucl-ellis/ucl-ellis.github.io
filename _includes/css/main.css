@@ -582,12 +582,14 @@ h.people-title {
     border-radius: 50%;
     height: auto;
     width: 10vw;
+    min-width: 170px;
   }
 
   #img-people img {
       border-radius: 50%;
       height: auto;
       width: 20vw;
+      min-width: 250px;
   }
   #img-news img{
       border-radius: 0%;
