@@ -2,7 +2,7 @@
 layout: default
 website: http://www.gatsby.ucl.ac.uk/~gretton/
 date: 2020-09-14
-img: ellis-logo.png
+img: arthur_gretton.png
 alt: image-alt
 interests: TBA
 department: Gatsby Computational Neuroscience Unit

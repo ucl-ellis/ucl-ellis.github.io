@@ -2,7 +2,7 @@
 layout: default
 website: https://jimegriffin.github.io/website/
 date: 2020-09-14
-img: ellis-logo.png
+img: jim_griffin.jpg
 alt: image-alt
 interests: TBA
 department: Statistics

@@ -2,7 +2,7 @@
 layout: default
 website: http://www.riedelcastro.org/
 date: 2020-09-14
-img: ellis-logo.png
+img: sebastian_riedel.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

@@ -2,7 +2,7 @@
 layout: default
 website: http://www.homepages.ucl.ac.uk/~ucaktwa/
 date: 2020-09-14
-img: ellis-logo.png
+img: tengyao_wang.png
 alt: image-alt
 interests: TBA
 department: Statistics

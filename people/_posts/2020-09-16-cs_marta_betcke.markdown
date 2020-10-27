@@ -2,7 +2,7 @@
 layout: default
 website: https://www.sites.google.com/site/mbetcke/
 date: 2020-09-14
-img: ellis-logo.png
+img: marta_betcke.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

@@ -2,7 +2,7 @@
 layout: default
 website: https://www.gatsby.ucl.ac.uk/~pel/
 date: 2020-09-14
-img: ellis-logo.png
+img: peter_latham.jpg
 alt: image-alt
 interests: TBA
 department: Gatsby Computational Neuroscience Unit

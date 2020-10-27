@@ -2,7 +2,7 @@
 layout: default
 website: http://www0.cs.ucl.ac.uk/staff/M.Herbster/
 date: 2020-09-14
-img: ellis-logo.png
+img: mark_herbster.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

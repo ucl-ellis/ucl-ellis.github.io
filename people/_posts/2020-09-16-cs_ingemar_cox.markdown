@@ -2,7 +2,7 @@
 layout: default
 website: https://iris.ucl.ac.uk/iris/browse/profile?upi=IJCOX77
 date: 2020-09-14
-img: igemar_cox.jpg 
+img: ingemar_cox.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

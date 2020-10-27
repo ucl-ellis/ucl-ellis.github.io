@@ -2,7 +2,7 @@
 layout: default
 website: https://www.inference.vc/about/
 date: 2020-09-14
-img: ellis-logo.png
+img: ferenc_huszar.jpg
 alt: image-alt
 interests: TBA
 department: Gatsby Computational Neuroscience Unit

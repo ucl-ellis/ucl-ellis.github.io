@@ -2,7 +2,7 @@
 layout: default
 website: https://mkusner.github.io/
 date: 2020-09-14
-img: ellis-logo.png
+img: matt_kusner.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

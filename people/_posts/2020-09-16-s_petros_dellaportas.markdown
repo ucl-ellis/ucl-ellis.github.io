@@ -2,7 +2,7 @@
 layout: default
 website: http://www.homepages.ucl.ac.uk/~ucakpde/
 date: 2020-09-14
-img: ellis-logo.png
+img: petros_dellaportas.jpg
 alt: image-alt
 interests: Bayesian statistics, Machine Learnig, Financial econometrics, Dynamic pricing
 department: Statistics

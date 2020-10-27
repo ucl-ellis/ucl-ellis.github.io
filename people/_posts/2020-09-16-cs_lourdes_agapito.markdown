@@ -2,7 +2,7 @@
 layout: default
 website: http://www0.cs.ucl.ac.uk/staff/L.Agapito/
 date: 2020-09-14
-img: lourdes_agapito.jpg 
+img: lourdes_agapito.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

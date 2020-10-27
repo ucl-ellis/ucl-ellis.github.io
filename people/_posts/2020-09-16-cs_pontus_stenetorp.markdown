@@ -2,7 +2,7 @@
 layout: default
 website: http://www0.cs.ucl.ac.uk/people/P.Stenetorp.html
 date: 2020-09-14
-img: ellis-logo.png
+img: pontus_stenetorp.jpg
 alt: image-alt
 interests: TBA
 department: Computer Science

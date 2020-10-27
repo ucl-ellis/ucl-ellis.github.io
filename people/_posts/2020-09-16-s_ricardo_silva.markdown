@@ -2,7 +2,7 @@
 layout: default
 website: http://www.homepages.ucl.ac.uk/~ucgtrbd/
 date: 2020-09-14
-img: ellis-logo.png
+img: ricardo_silva.jpg
 alt: image-alt
 interests: TBA
 department: Statistics

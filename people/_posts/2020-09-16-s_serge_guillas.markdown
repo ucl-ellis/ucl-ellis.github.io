@@ -2,7 +2,7 @@
 layout: default
 website: http://www.homepages.ucl.ac.uk/~ucaksgu/
 date: 2020-09-14
-img: ellis-logo.png
+img: serge_guillas.jpg
 alt: image-alt
 interests: TBA
 department: Statistics

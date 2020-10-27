@@ -2,7 +2,7 @@
 layout: default
 website: https://fxbriol.github.io/
 date: 2020-09-14
-img: ellis-logo.png
+img: francois.jpg
 alt: image-alt
 interests: TBA
 department: Statistics

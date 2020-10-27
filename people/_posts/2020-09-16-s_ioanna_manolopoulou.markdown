@@ -2,7 +2,7 @@
 layout: default
 website: https://www.ucl.ac.uk/~ucakima/
 date: 2020-09-14
-img: ellis-logo.png
+img: ioanna_manolopoulou.jpg
 alt: image-alt
 interests: TBA
 department: Statistics

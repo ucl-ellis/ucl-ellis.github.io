@@ -2,7 +2,7 @@
 layout: default
 website: https://www.ucl.ac.uk/iccs/dr-laura-toni
 date: 2020-09-14
-img: ellis-logo.png
+img: laura_toni.png
 alt: image-alt
 interests: TBA
 department: EEE
