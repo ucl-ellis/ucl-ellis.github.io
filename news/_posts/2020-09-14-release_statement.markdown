@@ -10,5 +10,4 @@ summary: UCL will join the ELLIS PhD program, a flagship initiative, where PhD s
 ---
 
 
-"Advances in AI that benefit people and planet require global cooperation across disciplines and sectors. The ELLIS network is a vital part of that effort and UCL is proud to be a contributor"
-Professor Geraint Rees, UCL Pro-Vice-Provost (AI)
+

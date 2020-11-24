@@ -11,6 +11,7 @@ about: "UCL, a global leader in AI and machine learning, has joined the ELLIS ne
 "
 meta_author: ELLIS UCL
 
+baseurl: "/"
 phd_positions_link: "https://ellis.eu/en/news/ellis-phd-program-call-for-applications"
 # Google webmaster tools
 google_verify:
