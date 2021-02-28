@@ -1,4 +1,6 @@
  <!-- News Section -->
+ {%- assign default_paths = site.pages | map: "path" -%}
+ {%- assign page_paths = site.header_pages | default: default_paths -%}
  <section id="events">
     <div class="container portfolio-flex-grid">
         <div class="row">
@@ -7,21 +9,29 @@
                 <hr class="star-primary">
             </div>
         </div>
-        {% assign num_events = site.categories.events | size %}
+        <!-- Deepmind/ELLIS CSML Seminars  -->
+        <div class="row">
+                {%- for path in page_paths -%}
+                    {%- assign path = page_paths -%}
+                    {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.permalink == '/dm_csml_seminar_home/' -%}
+                        <a href="{{ my_page.url | relative_url }}" >
+                            <div class="col-lg-12 text-center" style="margin-top: 20pt; margin-bottom: 10pt;">
+                                <h3 style="color: gray;"> Deepmind CSML Lunch Talks </h3>
+                            </div>
+                        </a>
+                    {%- endif -%}
+                {%- endfor -%}   
+            </div>
+        {% assign num_events = site.categories.csml_seminars | size %}
         {% if num_events == 0 %}
             <div class="col-lg-12 text-center">
                 <h3> Stay tuned </h3>
             </div>
         {% else %}
-            <div class="row">
-                <a href="http://www.csml.ucl.ac.uk/events/lunch_talks" >
-                    <div class="col-lg-12 text-center" style="margin-top: 20pt; margin-bottom: 10pt;">
-                        <h3 style="color: gray;"> Deepmind CSML Lunch Talks </h3>
-                    </div>
-                </a>
-            </div>
+            
             <div class="portfolio-flex-row">
-                {% for event in site.categories.events %}
+                {% for event in site.categories.dm_csml_seminars limit:2 %}
 
                     <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
                         <a href="{{ event.link }}", class="news-link porforlio-link">
@@ -38,7 +48,7 @@
                                     <h3 class="person-name"> {{ event.title }}</h3>
                                     <!-- <h4 href="{{ event.join_link}}"> Join link</h4> -->
                                     <div class="col-md-6">
-                                        <h5 class="news-date" style="color: gray"> Event Date: {{ event.event_date | date_to_long_string }} </h5>
+                                        <h5 class="news-date" style="color: gray"> Event Date: {{ event.event_start_time | date_to_long_string }} </h5>
                                     </div>
                                     <div class="col-md-6">
                                         <h5 class="news-date" style="color: gray"> Posted Date: {{ event.posted_date | date_to_long_string }} </h5>

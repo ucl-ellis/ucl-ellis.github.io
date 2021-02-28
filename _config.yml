@@ -13,6 +13,10 @@ meta_author: ELLIS UCL
 baseurl: "/"
 
 departments: [Computer Science, Gatsby Computational Neuroscience Unit, Department of Statistical Science, Department of Electronic and Electrical Engineering]
+
+navigation_pages: [
+  /openings/
+]
 # Google webmaster tools
 google_verify:
 
