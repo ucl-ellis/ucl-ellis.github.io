@@ -78,4 +78,8 @@ defaults:
     values:
       permalink: ""
 
+collections:
+  dm_csml_seminars:
+    output: true
+
 

@@ -28,7 +28,8 @@
     {% include head.html %}
     <body id="page-top" class="index">
     {% include nav_other.html %}
-    
+    {% assign seminars = site.dm_csml_seminars | reverse%}
+
     <!-- CSML Seminars homepage-->
     
     <section id="portfolio", class="success">
@@ -76,17 +77,20 @@
                 <th>Location</th>
                 <th>Description</th>
               </tr>
-              {% for item in site.categories.dm_csml_seminars %}
+              {% for item in site.dm_csml_seminars %}
                   <tr>
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.event_start_time | date: "%a, %d %b %Y" }}</th>
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}" >{{ item.event_start_time | date: "%H:%M" }}-{{item.event_end_time | date: "%H:%M" }}</th>
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.location}}</th>
-                    <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.speaker }}: {{item.title}}</th>
+                    <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
+                      <a href="{{ item.url}}" future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
+                        {{ item.speaker }}: {{item.title}}
+                      </a>
+                    </th>
                   </tr>
               {% endfor %}
             </table>
           </div>
-          
           <!-- Past Events -->
           <div class="col-lg-12 text-center" style="margin-top: 20pt; margin-bottom: 10pt;">
             <h3 style="color: gray;"> Past Events </h3>
@@ -97,11 +101,14 @@
                 <th>Date</th>
                 <th>Description</th>
               </tr>
-              {% for item in site.categories.dm_csml_seminars %}
-              
+              {% for item in seminars %}
                   <tr>
                     <th past-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.event_start_time | date: "%a, %d %b %Y" }}</th>
-                    <th past-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.speaker }}: {{item.title}}</th>
+                    <th past-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
+                      <a href="{{ item.url | relative_url }}" past-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
+                        {{ item.speaker }}: {{item.title}}
+                      </a>
+                    </th>
                   </tr>
               {% endfor %}
             </table>
