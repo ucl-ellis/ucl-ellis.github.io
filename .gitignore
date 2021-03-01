@@ -7,3 +7,4 @@ img/people/notes.txt
 people/_posts/update_image_name.py
 .jekyll-cache/*
 scripts/*
+.vscode/*

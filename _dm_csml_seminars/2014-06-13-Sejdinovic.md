@@ -1,0 +1,17 @@
+---
+layout: dm_csml_seminar_event
+posted_date: 2020-03-01
+event_start_time: 2014-06-13 13:00
+event_end_time: 2014-06-13 14:00
+img: ellis-logo.png
+alt: image-alt
+join_link: Malet Place Engineering Building 1.02
+location: Zoom
+speaker: David Barber, Kacper Chwiałkowski, Dino Sejdinovic
+affiliation: UCL
+title: ICML preview talks
+summary: <p>A chance to hear previews of ICML 2014 talks from CSML researchers.</p><p>Talk 1</p><p>Gaussian Processes for Bayesian Estimation in Ordinary Differential Equations</p><p>Yali Wang and David Barber</p><p>Bayesian parameter estimation in coupled ordinary differential equations (ODEs) is challenging due to the high computational cost of numerical integration. In gradient matching a separate<br/>data model is introduced with the property that its gradient may be calculated easily. Parameter<br/>estimation is then achieved by requiring consistency between the gradients computed from the<br/>data model and those specified by the ODE. We propose a Gaussian process model that directly<br/>links state derivative information with system observations, simplifying previous approaches and<br/>improving estimation accuracy.</p><p>Talk 2</p><p>A Kernel Independence Test for Random Processes</p><p>Kacper Chwiałkowski and Arthur Gretton</p><p>A non-parametric approach to the problem of testing the independence of two random processes will be presented.  The test statistic is the Hilbert-Schmidt Independence Criterion (HSIC), which was used previously in testing independence for i.i.d. pairs of variables. The asymptotic behaviour of HSIC will be established when computed from samples drawn from random processes. We will show that earlier bootstrap procedures which worked in the i.i.d. case will fail for random processes, and an alternative consistent estimate of the p-values will be proposed. Tests on artificial data and real-world forex data indicate that the new test procedure discovers dependence which is missed by linear approaches, while the earlier bootstrap procedure returns an elevated number of false positives.</p><p>Talk 3</p><p>Kernel adaptive Metropolis-Hastings</p><p>D. Sejdinovic, H. Strathmann, M. Lomeli Garcia, C. Andrieu and A. Gretton</p><p>Abstract&#58; A Kernel Adaptive Metropolis-Hastings algorithm is introduced, for the purpose of sampling from a target distribution with strongly nonlinear support. The algorithm embeds the trajectory of the Markov chain into a reproducing kernel Hilbert space (RKHS), such that the feature space covariance of the samples informs the choice of proposal. The procedure is computationally efficient and straightforward to implement, since the RKHS moves can be integrated out analytically&#58; our proposal distribution in the original space is a normal distribution whose mean and covariance depend on where the current sample lies in the support of the target distribution, and adapts to its local covariance structure. Furthermore, the procedure requires neither gradients nor any other higher order information about the target, making it particularly attractive for contexts such as Pseudo-Marginal MCMC. Kernel Adaptive Metropolis-Hastings outperforms competing fixed and adaptive samplers on multivariate, highly nonlinear target distributions, arising in both real-world and synthetic examples.<br/>Code&#58; https&#58;//github.com/karlnapf/kameleon-mcmc</p>
+icalendar: /ics/id/188
+calendar_name: csml_id_188.ics
+old_url: http://www.csml.ucl.ac.uk/events/188
+---

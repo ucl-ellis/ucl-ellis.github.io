@@ -595,3 +595,19 @@ h.people-title {
       border-radius: 0%;
   }
 
+table a{
+    text-decoration: none;
+    color: #BFBFBF;
+}
+
+table th{
+    color: #BFBFBF;
+}
+
+#title{
+    color: white;
+}
+
+#csml_seminars_table tr:nth-child(odd) {
+    background-color: rgb(28, 28, 33);
+}

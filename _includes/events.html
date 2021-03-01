@@ -34,7 +34,7 @@
                 {% for event in seminars limit:3%}
 
                     <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
-                        <a href="{{ event.link }}", class="news-link porforlio-link">
+                        <a href="{{ event.url | relative_url }}", class="news-link porforlio-link">
                             <div class="row" style="padding-bottom: 30px">
                                 <div class="col-md-2" style="padding: 2px; text-align: center;">
                                     <div id="over" style="position:relative; width:100%; height:100%">

@@ -6,7 +6,9 @@
       }
       
       #dm_csml_event_details th{
-          padding: 5px;
+          padding: 0;
+          padding-bottom: 5px;
+          padding-right: 100px;
           vertical-align: top;
       }
 
@@ -55,7 +57,11 @@
                 </tr>
                 <tr>
                     <th><p><strong>Summary</strong></p></th>
-                    <th><p>{{page.summary}}</p></th>
+                    <th>{{page.summary}}</th>
+                </tr>
+                <tr>
+                    <th><p><strong>iCalendar</strong></p></th>
+                    <th><a href="http://www.csml.ucl.ac.uk{{page.icalendar}}"><p>{{page.calendar_name}}</p></a></th>
                 </tr>
             </table>
 
