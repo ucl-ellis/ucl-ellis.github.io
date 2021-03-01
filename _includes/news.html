@@ -8,7 +8,8 @@
             </div>
         </div>
         <div class="portfolio-flex-row">
-            {% for post in site.categories.news %}
+            {% assign news = site.news | reverse %}
+            {% for post in news limit:5%}
 
                 <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
                     <a href={{ post.link }} class="news-link porforlio-link">

@@ -81,5 +81,15 @@ defaults:
 collections:
   dm_csml_seminars:
     output: true
+  people:
+    output: false
+  openings:
+    output: false
+  news:
+    output: false
+  quotes:
+    output: false
+  events:
+    output: false
 
 

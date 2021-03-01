@@ -15,7 +15,7 @@
          </div>
         
           <div class="porforlio-flex-rox">
-            {% for quote in site.categories.quotes %}
+            {% for quote in site.quotes | reverse %}
                 <div style="max-width: 100%; padding-top: 40px;" class="porforlio-flex-item porforlio-item">
                       <p class="person-name"> &ldquo;{{ quote.quote }} &rdquo;</p>
                       <p class="news-date"> {{ quote.epigrammatist }} <br> {{ quote.position }} </p>
