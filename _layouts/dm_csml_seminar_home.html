@@ -84,7 +84,7 @@
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.location}}</th>
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
                       <a href="{{ item.url}}" future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
-                        {{ item.speaker }}: {{item.title}}
+                        {{ item.speaker }} ({{ item.affiliation }}): {{item.title}}
                       </a>
                     </th>
                   </tr>
@@ -106,7 +106,7 @@
                     <th past-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.event_start_time | date: "%a, %d %b %Y" }}</th>
                     <th past-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
                       <a href="{{ item.url | relative_url }}" past-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
-                        {{ item.speaker }}: {{item.title}}
+                        {{ item.speaker }} ({{ item.affiliation }}): {{item.title}}
                       </a>
                     </th>
                   </tr>
