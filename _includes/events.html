@@ -48,10 +48,10 @@
                                     <h3 class="person-name"> {{ event.title }}</h3>
                                     <!-- <h4 href="{{ event.join_link}}"> Join link</h4> -->
                                     <div class="col-md-6">
-                                        <h5 class="news-date" style="color: gray"> Event Date: {{ event.event_start_time | date_to_long_string }} </h5>
+                                        <h5 class="news-date" style="color: gray">Speaker: {{ event.speaker }} </h5>
                                     </div>
                                     <div class="col-md-6">
-                                        <h5 class="news-date" style="color: gray"> Posted Date: {{ event.posted_date | date_to_long_string }} </h5>
+                                        <h5 class="news-date" style="color: gray">Event Date: {{ event.event_start_time | date_to_long_string }} </h5>
                                     </div>
                                     <p> {{ event.summary }}</p>
                                 </div>
