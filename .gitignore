@@ -8,3 +8,4 @@ people/_posts/update_image_name.py
 .jekyll-cache/*
 scripts/*
 .vscode/*
+.DS_Store

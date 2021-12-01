@@ -33,6 +33,9 @@ contact: static
 # https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: myshortname
 
+# To have future events published
+future: true
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 28282f #80B3FF
