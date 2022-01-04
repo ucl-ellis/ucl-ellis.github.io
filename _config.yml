@@ -84,6 +84,7 @@ defaults:
 collections:
   dm_csml_seminars:
     output: true
+    sort_by: event_start_time
   people:
     output: false
   openings:
