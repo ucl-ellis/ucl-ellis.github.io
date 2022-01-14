@@ -9,6 +9,6 @@ join_link: https://ucl.zoom.us/j/97245943682
 location: Zoom
 speaker: Stéphanie Allassonnière
 affiliation: Paris Descartes University
-title: TBC
+title: Stéphanie Allassonnière
 summary: TBC
 ---
