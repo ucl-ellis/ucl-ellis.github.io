@@ -7,8 +7,8 @@ img: ellis-logo.png
 alt: image-alt
 join_link: https://ucl.zoom.us/j/97245943682
 location: Zoom
-speaker: Stéphanie A
+speaker: Stéphanie Allassonnière
 affiliation: Paris Descartes University
-title: Stéphanie A
+title: Stéphanie Allassonnière
 summary: TBC
 ---
