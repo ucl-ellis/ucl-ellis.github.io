@@ -1,0 +1,18 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:https://ucl-ellis.github.io
+METHOD:PUBLISH{% for seminar in site.dm_csml_seminars %}
+BEGIN:VEVENT
+UID:seminar-{{ seminar.event_start_time | date: "%Y%m%d%H%M%S" }}@ucl-ellis.github.io
+LOCATION:{{ seminar.location }}
+SUMMARY:CSML seminar: {{ seminar.speaker | remove: ',' | remove: ';' }}
+DESCRIPTION:{{ seminar.speaker }} ({{ seminar.affiliation }}): {{ seminar.title }}{% if seminar.join_link %}\n\nLocation/link: {{ seminar.join_link }}{% endif %}\n\n{{ site.url }}/dm_csml_seminar_home
+CLASS:PUBLIC
+DTSTART;TZID=/Europe/London:{{ seminar.event_start_time | date: "%Y%m%dT%H%M%S" }}
+DTEND;TZID=/Europe/London:{{ seminar.event_end_time | date: "%Y%m%dT%H%M%S" }}
+DTSTAMP;TZID=/Europe/London:{{ seminar.posted_date | date: "%Y%m%dT%H%M%S" }}
+END:VEVENT{% endfor %}
+END:VCALENDAR
