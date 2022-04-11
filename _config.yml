@@ -11,6 +11,7 @@ about: "UCL, a global leader in AI and machine learning, has joined the ELLIS ne
 "
 meta_author: ELLIS UCL
 baseurl: "/"
+timezone: Europe/London
 
 departments: [Computer Science, Gatsby Computational Neuroscience Unit, Department of Statistical Science, Department of Electronic and Electrical Engineering, UCL Energy Institute]
 
