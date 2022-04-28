@@ -5,7 +5,7 @@ event_start_time: 2022-05-13 12:00
 event_end_time: 2022-05-13 13:00
 img: ellis-logo.png
 alt: image-alt
-join_link: in-person event
+join_link: in-person event, Zoom link https://ucl.zoom.us/j/97245943682
 location: G08 Sir David Davies LT, UCL Roberts Building, London WC1E 7JE
 speaker: Harita Dellaporta
 affiliation: University of Warwick
