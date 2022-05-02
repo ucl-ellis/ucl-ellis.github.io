@@ -11,4 +11,5 @@ speaker: Badr-Eddine Cherief-Abdellatif
 affiliation: Oxford University
 title: Badr-Eddine Cherief-Abdellatif
 summary: TBC
+bio: TBC
 ---
