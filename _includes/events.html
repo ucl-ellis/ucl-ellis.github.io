@@ -31,8 +31,8 @@
         {% else %}
             <div class="portfolio-flex-row">
                 {% assign seminars = site.dm_csml_seminars | reverse %}
-                {% assign seminarsnoreverse = site.dm_csml_seminars %}
-                {% for event in seminarsnoreverse limit:5%}
+                {% assign seminarsfive = seminars limit:5 %}
+                {% for event in seminarsfive | reverse %}
 
                     <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
                         <a href="{{ event.url | relative_url }}", class="news-link porforlio-link">
