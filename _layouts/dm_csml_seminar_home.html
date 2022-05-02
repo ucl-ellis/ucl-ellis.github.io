@@ -87,19 +87,19 @@
               <tr>
                 <th id='title'>Date</th>
                 <th id='title'>Time</th>
-                <th id='title'>Location</th>
                 <th id='title'>Description</th>
+                <th id='title'>Location</th>
               </tr>
               {% for item in site.dm_csml_seminars %}
                   <tr>
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.event_start_time | date: "%a, %d %b %Y" }}</th>
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}" >{{ item.event_start_time | date: "%H:%M" }}-{{item.event_end_time | date: "%H:%M" }}</th>
-                    <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.location}}</th>
                     <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
                       <a href="{{ item.url}}" future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">
                         {{ item.speaker }} ({{ item.affiliation }}): {{item.title}}
                       </a>
                     </th>
+                    <th future-date="{{ item.event_end_time | date: '%Y-%m-%d-%H-%M' }}">{{ item.location}}</th>
                   </tr>
               {% endfor %}
             </table>
