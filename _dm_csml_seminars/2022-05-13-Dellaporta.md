@@ -11,4 +11,5 @@ speaker: Harita Dellaporta
 affiliation: University of Warwick
 title: Harita Dellaporta
 summary: TBC
+bio: TBC
 ---
