@@ -120,9 +120,9 @@
         {% else %}
             <div class="portfolio-flex-row">
                 {% assign seminars = site.dm_csml_seminars | reverse %}
-                {% assign today_date = 'now' | date: '%s' %}
+                {% assign today_date = 'now' | date: '%s' | times: 1 %}
                 {% for event in seminars %}
-                    {% assign event_date = event.event_end_time | date: '%s' %}
+                    {% assign event_date = event.event_end_time | date: '%s' | times: 1 %}
                     {% if event_date > today_date %}
                         <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
                             <a href="{{ event.url | relative_url }}", class="news-link porforlio-link">
