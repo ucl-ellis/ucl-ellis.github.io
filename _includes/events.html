@@ -83,8 +83,8 @@
       if (day.length < 2) day = '0' + day;
       if (hour.length < 2) hour = '0' + hour;
       if (minute.length < 2) minute = '0' + minute;
-      var currenttime = [year, month, day, hour, minute].join('') + '.' + [seconds].join('');
-      return currenttime < eventtime.split('-').join('');
+      var currenttime = [year, month, day, hour, minute].join('');
+      return currenttime < eventtime.split('-').split(':').split(' ').join('');
   }
 </script>
  <!-- News Section -->
