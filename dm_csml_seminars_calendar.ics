@@ -10,7 +10,7 @@ BEGIN:VEVENT
 UID:seminar-{{ seminar.event_start_time | date: "%Y%m%d%H%M%S" }}@ucl-ellis.github.io
 LOCATION:{{ seminar.location | remove: ',' | remove: ';' }}
 SUMMARY:DeepMind/ELLIS CSML Seminar: {{ seminar.speaker | remove: ',' | remove: ';' }}
-DESCRIPTION:{{ seminar.speaker }} ({{ seminar.affiliation }}): {{ seminar.title }}{% if seminar.location %}\n\nLocation: {{ seminar.location }}{% endif %}{% if seminar.join_link %}\n\nLink: {{ seminar.join_link }}{% endif %}{% if seminar.summary %}\n\nAbstract: {{ seminar.summary }}{% endif %}\n\n{{ site.url }}/dm_csml_seminar_home
+DESCRIPTION:{{ seminar.speaker }} ({{ seminar.affiliation }}): {{ seminar.title }}{% if seminar.location %}\n\nLocation: {{ seminar.location }}{% endif %}{% if seminar.join_link %}\n\nLink: {{ seminar.join_link }}{% endif %}{% if seminar.summary %}\n\nAbstract: {{ seminar.summary }}{% endif %}{% if seminar.bio %}\n\nBiography: {{ seminar.bio }}{% endif %}\n\n{{ site.url }}/dm_csml_seminar_home
 CLASS:PUBLIC
 DTSTART;TZID=/Europe/London:{{ seminar.event_start_time | date: "%Y%m%dT%H%M%S" }}
 DTEND;TZID=/Europe/London:{{ seminar.event_end_time | date: "%Y%m%dT%H%M%S" }}
