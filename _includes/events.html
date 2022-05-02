@@ -30,7 +30,7 @@
             </div>
         {% else %}
             <div class="portfolio-flex-row">
-                {% assign seminars = site.dm_csml_seminars | reverse %}
+                {% assign seminars = site.dm_csml_seminars %}
                 {% assign today_date = 'now' | date: '%s' | times: 1 %}
                 {% for event in seminars %}
                     {% assign event_date = event.event_end_time | date: '%s' | times: 1 %}
