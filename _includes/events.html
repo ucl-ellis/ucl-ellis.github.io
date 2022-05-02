@@ -70,7 +70,23 @@
 
 
 
-
+<script>
+  function CompareDate(eventtime) {
+      var d = new Date(),
+          month = '' + (d.getMonth() + 1),
+          day = '' + d.getDate(),
+          year = d.getFullYear();
+          hour = d.getHours();
+          minute = d.getMinutes();
+          seconds = d.getSeconds();
+      if (month.length < 2) month = '0' + month;
+      if (day.length < 2) day = '0' + day;
+      if (hour.length < 2) hour = '0' + hour;
+      if (minute.length < 2) minute = '0' + minute;
+      var currenttime = [year, month, day, hour, minute].join('') + '.' + [seconds].join('');
+      return currenttime < eventtime.split('-').join('');
+  }
+</script>
  <!-- News Section -->
  {%- assign default_paths = site.pages | map: "path" -%}
  {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -104,7 +120,8 @@
         {% else %}
             <div class="portfolio-flex-row">
                 {% assign seminars = site.dm_csml_seminars | reverse %}
-                    {% if event.event_start_time > new Date() %}
+                {% assign eventtime = event.event_end_time | date: '%Y-%m-%d-%H-%M' %}
+                    {% if CompareDate(eventtime) %}
                         <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
                             <a href="{{ event.url | relative_url }}", class="news-link porforlio-link">
                                 <div class="row" style="padding-bottom: 30px">
