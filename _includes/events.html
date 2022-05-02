@@ -120,10 +120,9 @@
         {% else %}
             <div class="portfolio-flex-row">
                 {% assign seminars = site.dm_csml_seminars | reverse %}
-                {% assign eventtime = event.event_end_time %}
                 {% for event in seminars %}
 
-                    {% if CompareDate(eventtime) %}
+                    {% if CompareDate(event.event_end_time) %}
                         <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
                             <a href="{{ event.url | relative_url }}", class="news-link porforlio-link">
                                 <div class="row" style="padding-bottom: 30px">
