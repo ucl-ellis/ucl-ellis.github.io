@@ -1,7 +1,7 @@
 ---
 layout: default
 website: http://www.riedelcastro.org/
-date: 2020-09-14
+date: 2020-09-16
 img: sebastian_riedel.jpg
 alt: image-alt
 interests: TBA
