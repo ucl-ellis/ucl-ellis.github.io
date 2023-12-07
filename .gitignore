@@ -9,3 +9,4 @@ people/_posts/update_image_name.py
 scripts/*
 .vscode/*
 .DS_Store
+/vendor/bundle/*
