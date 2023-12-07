@@ -13,7 +13,10 @@ meta_author: ELLIS UCL
 baseurl: "/"
 timezone: Europe/London
 
-departments: [Computer Science, Gatsby Computational Neuroscience Unit, Department of Statistical Science, Department of Electronic and Electrical Engineering, UCL Energy Institute]
+departments: [
+  Computer Science, Gatsby Computational Neuroscience Unit, Department of Statistical Science,
+  Department of Electronic and Electrical Engineering, UCL Energy Institute, Department of Experimental Psychology,
+]
 
 navigation_pages: [
   /openings/
