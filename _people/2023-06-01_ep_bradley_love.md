@@ -7,5 +7,5 @@ alt: image-alt
 interests: TBA.
 department: Department of Experimental Psychology
 name: Bradley Love
-description: Bradley Love is a Professor of Cognitive and Decision Sciences in Experimental Psychology and a fellow at The Alan Turing Institute for data science and AI. His lab's research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives. Currently, they are focused on large-scale modelling of brain and behaviour using deep learning approaches, as well as using large language models to create BrainGPT, a tool to assist neuroscience researchers.
+description: "Brad Love is Professor of Cognitive and Decision Sciences at UCL and a Fellow at the Alan Turing Institute. He works at the intersection of Neuroscience, Experimental Psychology, and Machine Learning. In the recent past, he focused on using brain measures to select between competing models of cognitive function, and theory-driven analyses of naturalistic behavior in large datasets. Currently, his focus is on making deep learning and other complex models more human-like in terms of aligning with behaviour and brain response, as well as using large language models to accelerate scientific discovery."
 ---
