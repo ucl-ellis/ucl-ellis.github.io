@@ -1,7 +1,7 @@
 ---
 layout: dm_csml_seminar_event
-event_start_time: 2024-11-22 12:00
-event_end_time: 2024-11-22 13:00
+event_start_time: 2024-11-22 11:30
+event_end_time: 2024-11-22 12:30
 img: ellis-logo.png
 alt: image-alt
 join_link: https://ucl.zoom.us/j/7532311934
