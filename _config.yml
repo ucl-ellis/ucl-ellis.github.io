@@ -58,11 +58,9 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url:
-  - title: github
-    url:
-  - title: envelope
-    url: mailto:jpetangoda@gmail.com
+    url: https://x.com/uclcsml
+  - title: youtube
+    url: https://www.youtube.com/channel/UCiCXRD_NcvVjkLCE39GkwVQ
 
 # Postal address (add as many lines as necessary)
 address:
