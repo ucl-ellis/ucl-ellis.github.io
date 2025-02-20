@@ -5,7 +5,7 @@ plugins:
 title: UCL ELLIS
 email: your-email@domain.com
 url: https://ucl-ellis.github.io
-description: "Landing page for UCL Ellis."
+description: "Landing page for UCL ELLIS Unit."
 keywords: "your keywords, separated by commas"
 about: "UCL, a global leader in AI and machine learning, has joined the ELLIS network with a new ELLIS Unit. ELLIS is a European AI network of excellence comprising Units within 30 research institutions. It focuses on fundamental science, technical innovation and societal impact. The ELLIS Unit at UCL spans across multiple departments (Gatsby Computational Neuroscience Unit, Department of Computer Science, Department of Statistical Science and Department of Electronic and Electrical Engineering).
 "
@@ -19,7 +19,6 @@ departments: [
 ]
 
 navigation_pages: [
-  /openings/
 ]
 # Google webmaster tools
 google_verify:
