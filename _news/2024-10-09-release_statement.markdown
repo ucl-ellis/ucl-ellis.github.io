@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2024-10-09
-img: ellis-logo.png
+img: nobel-prize-2024.jpg
 alt: image-alt
 link: https://www.ucl.ac.uk/news/2024/oct/ucl-celebrates-two-more-nobel-prize-laureates#:~:text=Professor%20Geoffrey%20E.,learning%20with%20artificial%20neural%20networks”.
 title: UCL celebrates two Nobel Prize laureates in AI
