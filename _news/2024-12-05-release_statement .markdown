@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2024-12-05
-img: ellis-logo.png
+img: CSML_sciences.jpg
 alt: image-alt
 link: https://sample-space.org/posts/features/2024-12-11-csml-event/
 title: Workshop on "Computational Statistics and Machine Learning in the Sciences"
