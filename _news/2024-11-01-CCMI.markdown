@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2024-11-01
-img: ellis-logo.png
+img: UCL-imperial.png
 alt: image-alt
 link: https://ccmi-cdt.org
 title: UCL and Imperial awarded Centre for Doctoral Training on 'Collaborative Computational Modelling at the Interface'
