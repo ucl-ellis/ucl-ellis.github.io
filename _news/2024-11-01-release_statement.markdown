@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+date: 2024-11-01
+img: ellis-logo.png
+alt: image-alt
+link: https://ccmi-cdt.org
+title: UCL and Imperial awarded Centre for Doctoral Training on 'Collaborative Computational Modelling at the Interface'
+summary: CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, machine learning and research software engineering. The centre will be welcoming yearly cohorts starting in Autumn 2025, with many UCL ELLIS unit members being eligible as supervisors.
+---
+
+
+
