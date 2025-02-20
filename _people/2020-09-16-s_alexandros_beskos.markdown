@@ -1,6 +1,6 @@
 ---
 layout: default
-website: http://www.homepages.ucl.ac.uk/~ucakabe/
+website: https://www.ucl.ac.uk/statistics/people/alexandrosbeskos
 date: 2020-09-14
 img: alexandros_beskos.jpg
 alt: image-alt
