@@ -1,0 +1,55 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.people %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.name | remove: ' ' }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                                {% if post.website %}
+                                    <strong><a class="person-extra-info", href="{{ post.website }}"><h2>{{ post.name}}</h2></a>
+                                    </strong>
+                                {% else %}
+                               <h2>{{ post.name}}</h2> 
+                                {% endif %}
+                            <hr class="star-primary">
+                            <div id="img-people">
+                                <img id="img-people" src="img/people/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            </div>
+                            
+                            {% if post.description %}
+                                <p>{{ post.description }}</p>
+                            {% endif %}
+                            <ul class="list-inline item-details">
+                                {% if post.department %}
+                                    <li class="person-extra-info">Department:
+                                        <strong><h7 class="person-extra-info">{{ post.department }}</h7>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.interests %}
+                                    <li class="person-extra-info">Expertise:
+                                        <strong><h7 class="person-extra-info">{{ post.interests }}</h7>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.website%}
+                                    <li class="person-extra-info">
+                                        <strong><a class="person-extra-info", href="{{ post.website }}">Website</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

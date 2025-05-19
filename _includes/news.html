@@ -1,0 +1,37 @@
+ <!-- News Section -->
+ <section id="news", class="success">
+    <div class="container portfolio-flex-grid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>News</h2>
+                <hr class="star-light-grey">
+            </div>
+        </div>
+        <div class="portfolio-flex-row">
+            {% assign news = site.news | reverse %}
+            {% for post in news limit:5%}
+
+                <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
+                    <a href={{ post.link }} class="news-link porforlio-link">
+                        <div class="row" style="padding-bottom: 30px">
+                            <div class="col-md-2" style="padding: 2px; text-align: center;">
+                                <div id="over" style="position:relative; width:100%; height:100%">
+                                    <div id="img-news">
+                                        <img  src=/img/news/{{ post.img }} class="img-responsive"></img>
+                                    </div>
+                                    
+                                </div>                                
+                            </div>
+
+                            <div class="col-md-10">
+                                <h3 class="person-name"> {{ post.title }}</h3>
+                                <p class="news-date"> {{ post.date | date_to_long_string }} </p>
+                                <p> {{ post.summary }}</p>
+                             </div>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
