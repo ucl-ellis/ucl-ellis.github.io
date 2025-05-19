@@ -1,0 +1,69 @@
+ <!-- News Section -->
+ {%- assign default_paths = site.pages | map: "path" -%}
+ {%- assign page_paths = site.header_pages | default: default_paths -%}
+ <section id="events">
+    <div class="container portfolio-flex-grid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Events</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <!-- Jump Trading/ELLIS CSML Seminars  -->
+        <div class="row">
+                {%- for path in page_paths -%}
+                    {%- assign path = page_paths -%}
+                    {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.permalink == '/jt_csml_seminar_home/' -%}
+                        <a href="{{ my_page.url | relative_url }}" >
+                            <div class="col-lg-12 text-center" style="margin-top: 0pt; margin-bottom: 10pt;">
+                                <h3 style="color: gray;"> Jump Trading/ELLIS CSML Seminar Series </h3>
+                            </div>
+                        </a>
+                    {%- endif -%}
+                {%- endfor -%}   
+            </div>
+        {% assign num_events = site.dm_csml_seminars | size %}
+        {% if num_events == 0 %}
+            <div class="col-lg-12 text-center">\
+                <h3> Stay tuned </h3>
+            </div>
+        {% else %}
+            <div class="portfolio-flex-row">
+                {% assign seminars = site.dm_csml_seminars %}
+                {% assign today_date = 'now' | date: '%s' | times: 1 %}
+                {% for event in seminars %}
+                    {% assign event_date = event.event_end_time | date: '%s' | times: 1 %}
+                    {% if event_date > today_date %}
+                        <div style="max-width: 100%;" class="porforlio-flex-item porforlio-item">
+                            <a href="{{ event.url | relative_url }}", class="news-link porforlio-link">
+                                <div class="row" style="padding-bottom: 30px">
+                                    <div class="col-md-2" style="padding: 2px; text-align: center;">
+                                        <div id="over" style="position:relative; width:100%; height:100%">
+                                            <div id="img-news">
+                                                <img  src=/img/news/{{ event.img }} class="img-responsive"></img>
+                                            </div>
+                                        </div>                                
+                                    </div>
+
+                                    <div class="col-md-9">
+                                        <h3 class="person-name"> {{ event.title }}</h3>
+                                        <div class="col-md-6">
+                                            <h5 class="news-date" style="color: gray">Speaker: {{ event.speaker }} </h5>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h5 class="news-date" style="color: gray">Event Date: {{ event.event_start_time | date_to_long_string }} </h5>
+                                        </div>
+                                        <div>
+                                            <p> {{ event.summary }}</p>
+                                        </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %} 
+            </div>
+        {% endif %}
+    </div>
+</section>
