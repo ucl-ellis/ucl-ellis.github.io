@@ -6,7 +6,7 @@ img: pre-ICML-event.png
 alt: image-alt
 link: https://sites.google.com/view/pre-icml-london-2025
 title: Pre-ICML event at UCL
-summary: The ELLIS unit is hosting an afternoon of talk showcasing the exciting work in ML from in and around London.
+summary: The UCL ELLIS unit is hosting an afternoon of talks and posters showcasing the exciting work in machine learning taking place at UCL and in and around London. A big thank you to G-Research and MediaTek Research for sponsoring the event.
 ---
 
 
