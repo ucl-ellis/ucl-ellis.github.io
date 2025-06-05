@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2025-07-03
-img: pre-ICML-event.png
+img: pre-ICML-2025.png
 alt: image-alt
 link: https://sites.google.com/view/pre-icml-london-2025
 title: Pre-ICML event at UCL
