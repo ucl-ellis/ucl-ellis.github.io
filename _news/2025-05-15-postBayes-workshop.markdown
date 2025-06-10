@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2025-07-03
+date: 2025-05-15
 img: postBayes.jpg
 alt: image-alt
 link: https://postbayes.github.io/workshop2025/
