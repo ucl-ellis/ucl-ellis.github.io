@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+date: 2025-07-07
+img: ESSIR.png
+alt: image-alt
+link: https://2025.essir.eu
+title: ELLIS Summer School on Information Retrieval
+summary: The UCL ELLIS unit is co-organising this year's European Summer School on Information Retrieval.
+---
+
+
+
