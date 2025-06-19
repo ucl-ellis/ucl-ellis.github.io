@@ -1,0 +1,14 @@
+---
+layout: dm_csml_seminar_event
+event_start_time: 2025-06-20 12:00
+event_end_time: 2025-06-20 13:00
+img: ellis-logo.png
+alt: image-alt
+join_link: https://ucl.zoom.us/j/99748820264
+location: UCL Centre for Artificial Intelligence, 1st Floor, 90 High Holborn, London WC1V 6BH
+speaker: Roberta Raileanu
+affiliation: Google DeepMind
+title: "Automating Scientific Discovery: How Far Are We?"
+summary: "In this talk, I'll discuss the emergent field of using frontier models such as LLMs for automating scientific discovery and AI research itself. I will first describe the goals of this research area, the various subproblems, proposed approaches, and early work in this space. Despite the hype, flashy news articles, and some recent works with bold claims, I will provide empirical evidence that models still struggle with many aspects of scientific discovery. I argue this is still an open problem and it is unclear whether the current AI paradigm is enough to achieve the long-term ambition of this research agenda. I will then introduce MLGym and MLGym-Bench, a new framework and benchmark for evaluating and developing LLM agents on AI research tasks. This is the first Gym environment for machine learning (ML) tasks, enabling research on reinforcement learning (RL) algorithms for training such agents. MLGym-bench consists of 13 diverse and open-ended AI research tasks from diverse domains such as computer vision, natural language processing, reinforcement learning, and game theory. Solving these tasks requires real-world AI research skills such as generating new ideas and hypotheses, creating and processing data, implementing ML methods, training models, running experiments, analyzing the results, and iterating through this process to improve on a given task. I will demonstrate how MLGym makes it easy to add new tasks, integrate and evaluate models or agents, generate synthetic data at scale, as well as develop new learning algorithms for training agents on AI research tasks. Finally, I will discuss our findings from evaluating frontier LLMs on MLGym-bench, highlighting the limitations of current models at conducting AI Research, as well as avenues for future work."
+bio: "Roberta Raileanu is a Senior Staff Research Scientist at Google DeepMind and Honorary Lecturer at UCL where she’s co-teaching a course on Open-Endedness and Artificial General Intelligence. Her work focuses on designing open-ended learning systems drawing from different fields such as reinforcement learning, self-supervised learning, evolutionary search, and foundation models. Previously, Roberta was a Research Scientist at Meta, where she worked on applications to scientific discovery and accelerating AI research itself and led tool use for Llama. Roberta received her PhD in computer science at NYU, where she worked on generalization in deep reinforcement learning."
+---
