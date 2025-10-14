@@ -1,7 +1,7 @@
 ---
 layout: default
 website: https://leenacvankadara.com
-date: 2025-010-14
+date: 2025-10-14
 img: leena_vankadara.jpeg
 alt: image-alt
 interests: TBA
