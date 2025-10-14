@@ -2,7 +2,7 @@
 layout: default
 website: https://leenacvankadara.com
 date: 2025-010-14
-img: leena.jpeg
+img: leena_vankadara.jpeg
 alt: image-alt
 interests: TBA
 department: Gatsby Computational Neuroscience Unit
