@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 1
+date: 2026-06-02
+img: genAI.png
+alt: image-alt
+link: https://www.eventbrite.co.uk/e/hub-x-ml-methods-and-algorithms-tickets-1984063600639
+title: Hub X - ML Methods and Algorithms
+summary: This two-day, in-person workshop in London brings together experts from the Prob_AI and Gen AI Hubs along with ELLIS units to collaborate.
+
+---
+
+
+
