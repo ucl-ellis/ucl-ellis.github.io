@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2026-06-18
-img: CSML.png
+img: whatif.png
 alt: image-alt
 link: https://aae-workshop.github.io/info/
 title: Advances in Adaptive Experimentation Workshop
