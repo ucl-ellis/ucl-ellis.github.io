@@ -2,7 +2,7 @@
 layout: default
 website: https://palmigianolab.com/
 date: 2026-08-24
-img: agostina.jpg
+img: agostina.png
 #interests: TBA.
 department: Gatsby Computational Neuroscience Unit
 name: Agostina Palmigiano
