@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2026-10-20
-img: ellis-logo-new-black.png
+img: ellis-logo-white.png
 alt: image-alt
 link: https://ellis.eu/news/ellis-selects-160-outstanding-researchers-in-machine-learning-as-new-fellows-and-scholars-for-2025-2026
 title: Five newly elected ELLIS Scholars/Fellows
