@@ -1,6 +1,6 @@
 ---
 layout: default
-website: http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php
+website: https://davidbarber.github.io/
 date: 2020-09-14
 img: david_barber.jpg
 alt: image-alt
