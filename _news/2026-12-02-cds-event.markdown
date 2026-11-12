@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2026-13-02
+date: 2026-12-02
 img: cds.jpg
 alt: 
 link: https://www.ucl.ac.uk/mathematical-physical-sciences/news/2026/nov/symposium-data-science-new-terrains
