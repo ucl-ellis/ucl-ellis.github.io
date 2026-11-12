@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 1
+date: 2026-11-10
+img: dtt-db-concept.png
+alt: Illustration of DDT-DB, a mathematical manuscript surrounded by hundreds of papers linked by blue and teal arrows.
+link: https://www.ucl.ac.uk/engineering/news/ucl-researchers-awarded-1-million-help-mathematicians-build-new-discoveries
+title: AI for Math Fund award for DTT-DB
+summary: The UCL ELLIS Unit congratulates Carlo Ciliberto (UCL Centre for Artificial Intelligence), Fabio Zanasi (UCL Computer Science) and Alessandro Rudi (SDA Bocconi) on their US$1 million AIxMath award from Reinassance Philantropy to develop DTT-DB, a new kind of database for mathematical knowledge.
+---
