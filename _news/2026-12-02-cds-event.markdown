@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 1
+date: 2026-13-02
+img: cds.jpg
+alt: 
+link: https://www.ucl.ac.uk/mathematical-physical-sciences/news/2026/nov/symposium-data-science-new-terrains
+title: Symposium on 'Data Science in New Terrains'
+summary: The UCL Centre for Data Science is organising a one day event connecting researchers across data science for social sciences, humanities and beyond.
+---
