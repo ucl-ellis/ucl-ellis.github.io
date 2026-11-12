@@ -523,6 +523,11 @@ h5.person-name {
     text-align: center;
 }
 
+h5.person-name a:hover,
+h5.person-name a:focus {
+    text-decoration: underline;
+}
+
 i.fa-user {
     align-content: center;
     text-align: right; 

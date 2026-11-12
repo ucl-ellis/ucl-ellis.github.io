@@ -1,6 +1,6 @@
 ---
 layout: default
-website: https://www.ucl.ac.uk/biosciences/departments/neuroscience-physiology-pharmacology/neuroscience-phd/supervisors/neuroscience-maneesh
+website: https://www.gatsby.ucl.ac.uk/~maneesh/
 date: 2020-09-14
 img: maneesh_sahani.png
 name: Maneesh Sahani (Fellow)
